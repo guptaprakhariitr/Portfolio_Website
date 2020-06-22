@@ -1,16 +1,30 @@
-[debug] [2020-06-22T10:23:42.625Z] ----------------------------------------------------------------------
-[debug] [2020-06-22T10:23:42.627Z] Command:       /home/prakhar/.nvm/versions/node/v13.11.0/bin/node /home/prakhar/.nvm/versions/node/v13.11.0/bin/firebase deploy -m contact form nelify data-netlify-recaptcha
-[debug] [2020-06-22T10:23:42.628Z] CLI Version:   8.4.3
-[debug] [2020-06-22T10:23:42.628Z] Platform:      linux
-[debug] [2020-06-22T10:23:42.628Z] Node Version:  v13.11.0
-[debug] [2020-06-22T10:23:42.628Z] Time:          Mon Jun 22 2020 15:53:42 GMT+0530 (India Standard Time)
-[debug] [2020-06-22T10:23:42.628Z] ----------------------------------------------------------------------
-[debug] [2020-06-22T10:23:42.628Z] 
-[debug] [2020-06-22T10:23:42.634Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-06-22T10:23:42.635Z] > authorizing via signed-in user
-[debug] [2020-06-22T10:23:42.635Z] [iam] checking project site-aadfa for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2020-06-22T10:23:42.637Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/site-aadfa:testIamPermissions  
+[debug] [2020-06-22T10:34:25.102Z] ----------------------------------------------------------------------
+[debug] [2020-06-22T10:34:25.103Z] Command:       /home/prakhar/.nvm/versions/node/v13.11.0/bin/node /home/prakhar/.nvm/versions/node/v13.11.0/bin/firebase deploy -m contact form nelify
+[debug] [2020-06-22T10:34:25.104Z] CLI Version:   8.4.3
+[debug] [2020-06-22T10:34:25.104Z] Platform:      linux
+[debug] [2020-06-22T10:34:25.104Z] Node Version:  v13.11.0
+[debug] [2020-06-22T10:34:25.104Z] Time:          Mon Jun 22 2020 16:04:25 GMT+0530 (India Standard Time)
+[debug] [2020-06-22T10:34:25.104Z] ----------------------------------------------------------------------
+[debug] [2020-06-22T10:34:25.105Z] 
+[debug] [2020-06-22T10:34:25.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-22T10:34:25.111Z] > authorizing via signed-in user
+[debug] [2020-06-22T10:34:25.111Z] [iam] checking project site-aadfa for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-06-22T10:34:25.114Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/site-aadfa:testIamPermissions  
  {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2020-06-22T10:23:44.270Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 22 Jun 2020 10:23:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1360","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-06-22T10:23:44.276Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/site-aadfa  
+[debug] [2020-06-22T10:34:26.990Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 22 Jun 2020 10:34:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1360","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-22T10:34:26.997Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/site-aadfa  
  
+[debug] [2020-06-22T10:34:27.659Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 22 Jun 2020 10:34:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'site-aadfa'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-06-22T10:34:27.672Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/iitrprakhargupta/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-06-22T10:34:30.478Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 22 Jun 2020 10:34:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[iitrprakhargupta]: beginning deploy... 
+[info] i  hosting[iitrprakhargupta]: found 343 files in public 
+[debug] [2020-06-22T10:34:30.585Z] [hosting] hash cache [cHVibGlj] stored for 343 files
+[debug] [2020-06-22T10:34:30.586Z] [hosting][hash queue][FINAL] {"max":21,"min":0,"avg":1.0220220732993892,"active":0,"complete":343,"success":343,"errored":0,"retried":0,"total":343,"elapsed":23}
+[debug] [2020-06-22T10:34:30.586Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/iitrprakhargupta/versions/827a0a4f919b178f:populateFiles  
+ <request body omitted>
