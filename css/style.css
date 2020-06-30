@@ -2066,12 +2066,7 @@ textarea.form-control {
     outline: 0;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
-  .btn.disabled, .btn:disabled {
-    opacity: 0.65; }
 
-a.btn.disabled,
-fieldset:disabled a.btn {
-  pointer-events: none; }
 
 .btn-primary {
   color: #fff;
@@ -2093,7 +2088,6 @@ fieldset:disabled a.btn {
     color: #fff;
     background-color: #0062cc;
     border-color: #005cbf; }
-    .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
       box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
@@ -2470,7 +2464,7 @@ fieldset:disabled a.btn {
     box-shadow: none; }
   .btn-link:disabled, .btn-link.disabled {
     color: #6c757d;
-    pointer-events: none; }
+     }
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
@@ -2706,7 +2700,6 @@ input[type="button"].btn-block {
     background-color: #007bff; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
-    pointer-events: none;
     background-color: transparent; }
 
 .dropdown-menu.show {
@@ -2826,7 +2819,7 @@ input[type="button"].btn-block {
   .btn-group-toggle > .btn-group > .btn input[type="checkbox"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
-    pointer-events: none; }
+   }
 
 .input-group {
   position: relative;
@@ -3038,7 +3031,6 @@ input[type="button"].btn-block {
     display: block;
     width: 1rem;
     height: 1rem;
-    pointer-events: none;
     content: "";
     background-color: #fff;
     border: #adb5bd solid 1px; }
@@ -3373,7 +3365,6 @@ input[type="button"].btn-block {
     text-decoration: none; }
   .nav-link.disabled {
     color: #6c757d;
-    pointer-events: none;
     cursor: default; }
 
 .nav-tabs {
@@ -4049,7 +4040,6 @@ input[type="button"].btn-block {
 
 .page-item.disabled .page-link {
   color: #6c757d;
-  pointer-events: none;
   cursor: auto;
   background-color: #fff;
   border-color: #dee2e6; }
@@ -4423,7 +4413,6 @@ input[type="button"].btn-block {
     border-bottom-left-radius: 0.25rem; }
   .list-group-item.disabled, .list-group-item:disabled {
     color: #6c757d;
-    pointer-events: none;
     background-color: #fff; }
   .list-group-item.active {
     z-index: 2;
@@ -4649,8 +4638,6 @@ button.close {
   -moz-appearance: none;
   appearance: none; }
 
-a.close.disabled {
-  pointer-events: none; }
 
 .toast {
   max-width: 350px;
@@ -4711,8 +4698,7 @@ a.close.disabled {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
-  pointer-events: none; }
+  margin: 0.5rem; }
   .modal.fade .modal-dialog {
     -webkit-transition: -webkit-transform 0.3s ease-out;
     transition: -webkit-transform 0.3s ease-out;
@@ -8397,7 +8383,7 @@ h1, h2, h3, h4, h5,
         opacity: .5; } }
   .hero-wrap .slider-text {
     height: 750px;
-    z-index: 0;
+    z-index: 5;
     overflow: hidden; }
     @media (max-width: 991.98px) {
       .hero-wrap .slider-text {
@@ -8406,7 +8392,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap .slider-text .one-third {
       width: 60%;
       position: relative;
-      z-index: -1; 
+      z-index: 5; 
     }
       .hero-wrap .slider-text .one-third .overlay {
         position: absolute;
@@ -8419,7 +8405,7 @@ h1, h2, h3, h4, h5,
       @media (max-width: 991.98px) {
         .hero-wrap .slider-text .one-third {
           width: 100%;
-          z-index: 0; }
+          z-index: 5; }
           .hero-wrap .slider-text .one-third .overlay {
             opacity: .3; }
           .hero-wrap .slider-text .one-third:after {
@@ -8444,7 +8430,7 @@ h1, h2, h3, h4, h5,
           left: 0;
           right: 0;
           bottom: 0;
-          z-index: 1;
+          z-index: 5;
           padding: 1em; } }
       @media (max-width: 991.98px) {
         .hero-wrap .slider-text .one-forth {
@@ -8497,7 +8483,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap .slider-text .breadcrumbs {
       font-size: 16px;
       margin-bottom: 20px;
-      z-index: 99;
+      z-index: 5;
       font-weight: 600;
       text-transform: uppercase; }
       .hero-wrap .slider-text .breadcrumbs span {
@@ -8525,7 +8511,6 @@ h1, h2, h3, h4, h5,
   background: #17b978; }
 
 .btn {
-  cursor: pointer;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
